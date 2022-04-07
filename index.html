@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Image Slider</title>
+</head>
+<body>
+    <section>
+        <div class="container" data-container>
+            <button class="container-button prev" data-button="prev"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+            <button class="container-button next" data-button="next"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+        <ul data-slides>
+            <li class="slide" data-active="">
+                <img src="image/1.jpg" alt="car1">
+            </li> 
+
+            <li class="slide">
+                <img src="image/2.jpg" alt="car2">
+            </li>
+
+            <li class="slide">
+                <img src="image/3.jpg" alt="car3">
+            </li>
+        </ul>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
